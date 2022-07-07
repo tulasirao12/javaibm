@@ -15,5 +15,9 @@ public interface FlightService {
 		boolean remove(int code);
 
 		boolean update(Flight f);
+		
+		List<Flight> byCarrier(String carrier);
+		
+		List<Flight> byRoute(String source, String destination);
 	
 }
