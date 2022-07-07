@@ -43,13 +43,13 @@ public class FlightServiceImpl implements FlightService {
 
 	@Override
 	public List<Flight> byCarrier(String carrier) {
-		// TODO Auto-generated method stub
+		
 		return repo.findByCarrier(carrier);
 	}
 
 	@Override
 	public List<Flight> byRoute(String source, String destination) {
-		// TODO Auto-generated method stub
+		
 		return repo.findByRoute(source, destination);
 	}
 
